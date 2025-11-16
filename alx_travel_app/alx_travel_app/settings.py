@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     'listings',
 ]
 
+# Custom User Model
+AUTH_USER_MODEL = 'listings.User'
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
